@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Seller Home Page</h1>
+    <a href="{% url 'eco_seller:seller_addproduct' %}"><h2>Add Product</h2></a>
+    <a href="{% url 'eco_seller:seller_productcatalogue' %}"><h2>Product Catalogue</h2></a>
+    <a href="{% url 'eco_seller:seller_order' %}"><h2>My Orders</h2></a>
+    <a href="{% url 'eco_seller:seller_stock' %}"><h2>Update Stock</h2></a>
+    <a href="{% url 'eco_seller:seller_changepassword' %}"><h2>Change Password</h2></a>
+    <a href="{% url 'eco_seller:seller_profile' %}"><h2>Profile</h2></a>
+</body>
+</html>

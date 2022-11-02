@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Customer Home Page</h1></center>
+    <a href="{% url 'eco_customer:eco_profile' %}"><h2>MY PROFILE</h2></a>
+    <a href="{% url 'eco_customer:eco_product' %}"><h2>PRODUCT DETIALS</h2></a>
+    <a href="{% url 'eco_customer:eco_cart' %}"><h2>MY CART</h2></a>
+    <a href="{% url 'eco_customer:eco_orders' %}"><h2>MY ORDERS</h2></a>
+    <a href="{% url 'eco_customer:eco_password' %}"><h2>CHANGE PASSWORD</h2></a>
+</body>
+</html>
